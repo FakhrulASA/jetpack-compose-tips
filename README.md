@@ -18,4 +18,8 @@
 
 ✅ Make your composable functions stateless for testing or using them in lambda functions that don't support composable like onClick{}. By doing this and controlling the state from the parent function, the class you will be able to make your codebase testable, decoupled, and easy to work with.
 
+✅ Do not use other then jetpack compose library component if you have like AlertDialog for jetpack compose. Because it will give you the maximum efficiency and customization for your application.
+
+✅ Try to use viewmodel to handle states of EditText, TextField and their validation instead of doing in them in composable function because it will make your UI skipping frames. 
+
 ## Thank you very much, make sure you also share these tips with your fellow android developer.
